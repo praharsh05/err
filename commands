@@ -1,0 +1,8 @@
+# Delete the transport CA and per-node transport cert secrets
+kubectl delete secret elasticsearch-es-transport-ca-internal -n elasticsearch
+kubectl delete secret elasticsearch-es-master-es-transport-certs -n elasticsearch
+kubectl delete secret elasticsearch-es-data-es-transport-certs -n elasticsearch
+
+
+kubectl rollout restart statefulset elasticsearch-es-master -n elasticsearch
+kubectl rollout restart statefulset elasticsearch-es-data -n elasticsearch
