@@ -6,3 +6,8 @@ kubectl delete secret elasticsearch-es-data-es-transport-certs -n elasticsearch
 
 kubectl rollout restart statefulset elasticsearch-es-master -n elasticsearch
 kubectl rollout restart statefulset elasticsearch-es-data -n elasticsearch
+
+
+kubectl exec -n elasticsearch elasticsearch-es-master-0 -- date
+kubectl exec -n elasticsearch elasticsearch-es-master-1 -- date
+kubectl exec -n elasticsearch elasticsearch-es-master-2 -- date
