@@ -19,3 +19,22 @@ kibana-kb-config                             Opaque                           2 
 kibana-kb-es-ca                              Opaque                           2      71d
 kibana-kibana-user                           Opaque                           4      71d
 regcred                                      kubernetes.io/dockerconfigjson   1      35d
+
+
+
+
+
+
+
+bilal@hd286aicp01:~$ kubectl get pod -n elasticsearch -o wide
+NAME                         READY   STATUS                        RESTARTS   AGE    IP           NODE          NOMINATED NODE   READINESS GATES
+elasticsearch-es-data-0      0/1     Running                       0          28m    10.0.1.78    k8s-worker1   <none>           <none>
+elasticsearch-es-data-1      0/1     Running                       0          4h9m   10.0.1.89    k8s-worker1   <none>           <none>
+elasticsearch-es-data-2      0/1     Running                       0          4h9m   10.0.1.227   k8s-worker1   <none>           <none>
+elasticsearch-es-master-0    0/1     Running                       0          28m    10.0.1.226   k8s-worker1   <none>           <none>
+elasticsearch-es-master-1    0/1     Running                       0          4h9m   10.0.1.144   k8s-worker1   <none>           <none>
+elasticsearch-es-master-2    0/1     Running                       0          4h9m   10.0.1.82    k8s-worker1   <none>           <none>
+kibana-kb-6d6b747759-flknn   0/1     Init:ImagePullBackOff         0          38d    10.0.0.6     k8s-master    <none>           <none>
+kibana-kb-6d6b747759-w6f9s   0/1     Init:ContainerStatusUnknown   0          42d    <none>       k8s-worker4   <none>           <none>
+kibana-kb-78474f599f-zp5mr   0/1     Init:ImagePullBackOff         0          37d    10.0.0.202   k8s-master    <none>           <none>
+bilal@hd286aicp01:~$
