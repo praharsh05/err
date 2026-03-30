@@ -38,3 +38,10 @@ kibana-kb-6d6b747759-flknn   0/1     Init:ImagePullBackOff         0          38
 kibana-kb-6d6b747759-w6f9s   0/1     Init:ContainerStatusUnknown   0          42d    <none>       k8s-worker4   <none>           <none>
 kibana-kb-78474f599f-zp5mr   0/1     Init:ImagePullBackOff         0          37d    10.0.0.202   k8s-master    <none>           <none>
 bilal@hd286aicp01:~$
+
+
+[ERROR] Reading date: sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+[ERROR] Could not read remote date. Exiting.
+
+[INFO] Connection closed.
