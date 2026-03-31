@@ -53,3 +53,63 @@ Could not get Redis info
 =======================================================
 
 [INFO] Connection closed.
+
+
+
+
+
+
+
+2026-03-31 16:30:00,000 6817595a-1d0f-4d50-b1aa-8ef346fd31c4 [Scheduler-Thread-36] INFO  c.n.dialstream.scheduler.CronProcess - [MONGO API CAMPAIGN] Trigger CronJob to run Mongo scheduler at 2026-03-31T16:30
+2026-03-31 16:30:00,000 a28bcba5-5c4a-4e06-ae0f-ae6fd1a50ce0 [Scheduler-Thread-68] INFO  c.n.dialstream.scheduler.CronProcess - Trigger CronJob to run Mongo scheduler at 2026-03-31T16:30
+2026-03-31 16:30:00,000 e5ca45ed-ac38-4fc8-b23a-55faecb08cd1 [Scheduler-Thread-172] INFO  c.n.dialstream.scheduler.CronProcess - Trigger Cron To fetch and upload recording for request a32f0c41-5d9a-43d6-a63c-97560c52b355
+2026-03-31 16:30:00,000 594f973f-a49c-418d-be01-aabaabd1440d [Scheduler-Thread-105] INFO  c.n.dialstream.scheduler.CronProcess - Dialer NOBROKER cron job triggered to run the campaign at: 2026-03-31T16:30
+2026-03-31 16:30:00,001 6a1547fa-e3c0-424a-9dae-6ba498d2cbab [Scheduler-Thread-60] INFO  c.n.dialstream.scheduler.CronProcess - [REDIAL] Trigger Redial campaign at : 2026-03-31T16:30
+2026-03-31 16:30:00,001 37c26338-3345-480f-a573-2aa884371e01 [Scheduler-Thread-117] INFO  c.n.dialstream.scheduler.CronProcess - [Whatsapp] Trigger whatsapp campaign : 2026-03-31T16:30
+2026-03-31 16:30:00,000 6679ce35-5992-412d-b825-86ccdfefcd41 [Scheduler-Thread-35] INFO  c.n.dialstream.scheduler.CronProcess - [API CAMPAIGN] Trigger CronJob to run api campaign scheduler at 2026-03-31T16:30
+2026-03-31 16:30:00,000 fbb4818d-fafe-4671-95fa-19ff177dd52f [Scheduler-Thread-205] INFO  c.n.dialstream.scheduler.CronProcess - Dialer EXOTEL cron job triggered to run the campaign at: 2026-03-31T16:30
+2026-03-31 16:30:00,002 6a1547fa-e3c0-424a-9dae-6ba498d2cbab [Scheduler-Thread-60] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@afeb588c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-03-31 16:30:00,002 37c26338-3345-480f-a573-2aa884371e01 [Scheduler-Thread-117] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4e473e52 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-03-31 16:30:00,002 fbb4818d-fafe-4671-95fa-19ff177dd52f [Scheduler-Thread-205] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@e03beaa9 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-03-31 16:30:00,002 6679ce35-5992-412d-b825-86ccdfefcd41 [Scheduler-Thread-35] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@58b200c4 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-03-31 16:30:00,002 594f973f-a49c-418d-be01-aabaabd1440d [Scheduler-Thread-105] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6ecaf14d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-03-31 16:30:00,003 e5ca45ed-ac38-4fc8-b23a-55faecb08cd1 [Scheduler-Thread-172] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2b8f5b42 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-03-31 16:30:00,003 6679ce35-5992-412d-b825-86ccdfefcd41 [Scheduler-Thread-35] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@8447b4f0 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-03-31 16:30:00,003 fbb4818d-fafe-4671-95fa-19ff177dd52f [Scheduler-Thread-205] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@9a62ef1f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-03-31 16:30:00,003 37c26338-3345-480f-a573-2aa884371e01 [Scheduler-Thread-117] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@457f4eab (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-03-31 16:30:00,003 6679ce35-5992-412d-b825-86ccdfefcd41 [Scheduler-Thread-35] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@13cc7fbd (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-03-31 16:30:00,003 fbb4818d-fafe-4671-95fa-19ff177dd52f [Scheduler-Thread-205] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@448f1697 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-03-31 16:30:00,003 37c26338-3345-480f-a573-2aa884371e01 [Scheduler-Thread-117] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@9209512d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-03-31 16:30:00,004 6679ce35-5992-412d-b825-86ccdfefcd41 [Scheduler-Thread-35] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@a1e7b5f2 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-03-31 16:30:00,004 6a1547fa-e3c0-424a-9dae-6ba498d2cbab [Scheduler-Thread-60] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@ecfcedfc (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-03-31 16:30:00,004 e5ca45ed-ac38-4fc8-b23a-55faecb08cd1 [Scheduler-Thread-172] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3c8f888a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-03-31 16:30:00,004 594f973f-a49c-418d-be01-aabaabd1440d [Scheduler-Thread-105] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@ef0ec354 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-03-31 16:30:00,021 520b1b6c-475e-4640-aa4a-c3b222336764 [Scheduler-Thread-205] INFO  c.n.dialstream.scheduler.CronProcess - EXOTEL scheduler executed in 20 ms | Request ID: 520b1b6c-475e-4640-aa4a-c3b222336764
+2026-03-31 16:30:00,031 f3831e14-2901-4854-bc64-65c253de5362 [Scheduler-Thread-60] INFO  c.n.dialstream.scheduler.CronProcess - [REDIAL] Redial campaign executed in 30 ms | Request ID: f3831e14-2901-4854-bc64-65c253de5362
+2026-03-31 16:30:00,031 a8a8f666-63c5-4118-bb79-2bf0883d0d5e [Scheduler-Thread-105] INFO  c.n.dialstream.scheduler.CronProcess - NOBROKER scheduler executed in 30 ms | Request ID: a8a8f666-63c5-4118-bb79-2bf0883d0d5e
+2026-03-31 16:30:00,034 19595c68-8e47-4c22-a56f-ef8fb9b336a9 [Scheduler-Thread-36] INFO  c.n.d.s.MongoCampaignCallScheduleService - [CREATE API CAMPAIGN] Campaign datetime at 2026-03-31T16:30
+2026-03-31 16:30:00,034 4c2ac7f6-dc15-40a8-b0a9-1ec04b164acd [Scheduler-Thread-68] INFO  c.n.d.s.MongoCampaignCallScheduleService - Start running mongo scheduler at 2026-03-31T16:30 for config DUMMY_MONGO_JOB_ID
+2026-03-31 16:30:00,035 6c7acd7b-5b0e-4085-96a8-d9aa5eb8d27c [Scheduler-Thread-117] INFO  c.n.d.s.WhatsappCallConfigService - [WhatsApp] No WhatsApp campaigns found (CRON)
+2026-03-31 16:30:00,035 6c7acd7b-5b0e-4085-96a8-d9aa5eb8d27c [Scheduler-Thread-117] INFO  c.n.dialstream.scheduler.CronProcess - [Whatsapp] Campaign executed in 34 ms | Request ID: 6c7acd7b-5b0e-4085-96a8-d9aa5eb8d27c
+2026-03-31 16:30:00,036  [Async-Executor-174] INFO  c.n.d.s.i.SchedulerConfigServiceImpl - Re-triggering pending job logs 0
+2026-03-31 16:30:00,037 a32f0c41-5d9a-43d6-a63c-97560c52b355 [Scheduler-Thread-172] INFO  c.n.d.s.DialerRecordingInfoService - No active records found for processing.
+2026-03-31 16:30:00,037 bb5d4468-615c-48a1-aa1b-53e8074866ea [Scheduler-Thread-35] INFO  c.n.d.service.ApiConfigJobRunner - [API CAMPAIGN] Re-triggering pending job logs 0
+2026-03-31 16:30:00,039  [Async-Executor-175] INFO  c.n.d.service.CampaignRedialService - [REDIAL] Re-triggering pending job logs 0
+2026-03-31 16:30:00,040 4c2ac7f6-dc15-40a8-b0a9-1ec04b164acd [Scheduler-Thread-68] INFO  c.n.d.s.MongoCampaignCallScheduleService - No records found in Mongo schedule for config DUMMY_MONGO_JOB_ID
+2026-03-31 16:30:00,040 4c2ac7f6-dc15-40a8-b0a9-1ec04b164acd [Scheduler-Thread-68] INFO  c.n.dialstream.scheduler.CronProcess - Time Taken 40 to run the Mongo scheduler and request id 4c2ac7f6-dc15-40a8-b0a9-1ec04b164acd
+2026-03-31 16:30:00,040  [Async-Executor-176] INFO  c.n.d.s.i.SchedulerConfigServiceImpl - Re-triggering pending job logs 0
+2026-03-31 16:30:00,045  [Async-Executor-174] INFO  c.n.d.s.i.SchedulerConfigServiceImpl - No pending campaign found. Fetching new campaign for execution.
+2026-03-31 16:30:00,045 bb5d4468-615c-48a1-aa1b-53e8074866ea [Scheduler-Thread-35] INFO  c.n.d.service.ApiConfigJobRunner - [API CAMPAIGN] No pending campaign found. Fetching new campaign for execution.
+2026-03-31 16:30:00,046 19595c68-8e47-4c22-a56f-ef8fb9b336a9 [Scheduler-Thread-36] INFO  c.n.d.s.MongoCampaignCallScheduleService - [CREATE API CAMPAIGN] No records found in Mongo schedule at 2026-03-31T16:30
+2026-03-31 16:30:00,046 19595c68-8e47-4c22-a56f-ef8fb9b336a9 [Scheduler-Thread-36] INFO  c.n.dialstream.scheduler.CronProcess - [MONGO API CAMPAIGN] Time Taken 46 to run the Mongo scheduler and request id 19595c68-8e47-4c22-a56f-ef8fb9b336a9
+2026-03-31 16:30:00,049  [Async-Executor-176] INFO  c.n.d.s.i.SchedulerConfigServiceImpl - No pending campaign found. Fetching new campaign for execution.
+2026-03-31 16:30:00,049 bb5d4468-615c-48a1-aa1b-53e8074866ea [Scheduler-Thread-35] INFO  c.n.d.service.ApiConfigJobRunner - [API CAMPAIGN] Prioritized scheduler configs with diverse project IDs. Total: 0
+2026-03-31 16:30:00,049 bb5d4468-615c-48a1-aa1b-53e8074866ea [Scheduler-Thread-35] INFO  c.n.d.service.ApiConfigJobRunner - [API CAMPAIGN] No campaign found for the next trigger time: 2026-03-31T16:30
+2026-03-31 16:30:00,049  [Async-Executor-174] INFO  c.n.d.s.i.SchedulerConfigServiceImpl - Prioritized scheduler configs with diverse project IDs. Total: 0
+2026-03-31 16:30:00,049 bb5d4468-615c-48a1-aa1b-53e8074866ea [Scheduler-Thread-35] INFO  c.n.dialstream.scheduler.CronProcess - [API CAMPAIGN] Time Taken 48 to run the api campaign and request id bb5d4468-615c-48a1-aa1b-53e8074866ea
+2026-03-31 16:30:00,049  [Async-Executor-174] INFO  c.n.d.s.ScheduleConfigJobRunner - No campaign found for the next trigger time: 2026-03-31T16:30
+2026-03-31 16:30:00,051  [Async-Executor-175] INFO  c.n.d.service.CampaignRedialService - [REDIAL] No pending redial found. Fetching new redial for execution.
+2026-03-31 16:30:00,053  [Async-Executor-176] INFO  c.n.d.s.i.SchedulerConfigServiceImpl - Prioritized scheduler configs with diverse project IDs. Total: 0
+2026-03-31 16:30:00,053  [Async-Executor-176] INFO  c.n.d.s.ScheduleConfigJobRunner - No campaign found for the next trigger time: 2026-03-31T16:30
+2026-03-31 16:30:00,054  [Async-Executor-175] INFO  c.n.d.service.CampaignRedialService - [REDIAL] Prioritized scheduler configs with diverse project IDs. Total: 0 : [[]]
+2026-03-31 16:30:00,054  [Async-Executor-175] INFO  c.n.d.service.CampaignRedialService - No redial campaign found for the next trigger time: 2026-03-31T16:30
