@@ -1,0 +1,55 @@
+ bilal@hd286aicp01:~$ ./check_services
+=======================================================
+   Service Health Check
+   Host: 219
+   Time: 2026-03-31 14:24:32
+=======================================================
+
+[INFO] Connecting to 219 as convozen ...
+[INFO] Connected successfully.
+
+=======================================================
+  DISK USAGE (df -Th)
+=======================================================
+Filesystem                        Type     Size  Used Avail Use% Mounted on
+tmpfs                             tmpfs    392M  1.5M  390M   1% /run
+/dev/mapper/ubuntu--vg-ubuntu--lv ext4      24G   12G   12G  51% /
+tmpfs                             tmpfs    2.0G     0  2.0G   0% /dev/shm
+tmpfs                             tmpfs    5.0M     0  5.0M   0% /run/lock
+/dev/vda2                         ext4     2.0G  266M  1.6G  15% /boot
+overlay                           overlay   24G   12G   12G  51% /var/lib/docker/rootfs/overlayfs/932a32532e1aa0f13a1b28101d704fcb076b783e75d1e738c516c6bfef9f4dee
+overlay                           overlay   24G   12G   12G  51% /var/lib/docker/rootfs/overlayfs/12e31c8e8d417459fb4d1dd8e7bbe40442fdc939a55167c98d8b7b86d6347b28
+/dev/mapper/data--vg-data--lv     ext4      49G  1.4G   46G   3% /mnt/data
+tmpfs                             tmpfs    392M  4.0K  392M   1% /run/user/1001
+
+=======================================================
+  MONGODB (Docker) - Ports 27017 & 27018
+=======================================================
+[CONTAINERS]
+mongo2    mongo:6   Up 5 weeks   0.:27018->27017/tcp, [::]:27018->27017/tcp
+mongo1    mongo:6   Up 5 weeks   0:27017->27017/tcp, [::]:27017->27017/tcp
+
+[PORT 27017] LISTEN 0      4096          0:27017      0:*    users:(("docker-proxy",pid=5434,fd=7))
+LISTEN 0      4096             [::]:27017         [::]:*    users:(("docker-proxy",pid=5441,fd=7))
+[PORT 27018] LISTEN 0      4096          .0:27018      .0:*    users:(("docker-proxy",pid=5281,fd=7))
+LISTEN 0      4096             [::]:27018         [::]:*    users:(("docker-proxy",pid=5287,fd=7))
+
+[PING 27017] Could not ping mongo on 27017
+[PING 27018] Could not ping mongo on 27018
+
+=======================================================
+  REDIS
+=======================================================
+[CONTAINERS]
+No redis containers found
+
+[PORT 6379] LISTEN 0      511    .219:6379       0.0.0.0:*    users:(("redis-server",pid=1495,fd=6))
+[PING] Could not ping Redis
+[INFO]
+Could not get Redis info
+
+=======================================================
+  DONE
+=======================================================
+
+[INFO] Connection closed.
