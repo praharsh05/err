@@ -12,3 +12,6 @@ kubectl exec -n elasticsearch elasticsearch-es-master-0 -- date
 kubectl exec -n elasticsearch elasticsearch-es-master-1 -- date
 kubectl exec -n elasticsearch elasticsearch-es-master-2 -- date
 curl -k http://172.16.123.228/api/v1/did-numbers/byNumber
+
+
+curl -X GET "http://172.16.123.228/api/v1/did-numbers/byNumber?didNumber=024123666&callId=2e314694-d456-4b1b-a316-bbabd1393aa3&callType=INBOUND&phoneNumber=8827248438"
